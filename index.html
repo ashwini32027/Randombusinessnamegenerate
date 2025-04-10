@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💼 Business Name Generator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f9f9f9, #e0e0e0);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .box {
+      padding: 20px 40px;
+      background-color: #fff;
+      border: 3px solid #333;
+      border-radius: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+      min-width: 280px;
+      text-align: center;
+      transition: all 0.6s ease;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background: #4CAF50;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #388e3c;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>💡 Business Name Generator</h1>
+  <div class="box" id="nameBox">Hey I AM box</div>
+  <button onclick="generateName()"> Generate Name</button>
+  <footer>Made with ❤️ by Ashwini </footer>
+
+  <script>
+    function generateName() {
+      let rand = Math.random();
+      let first, second, third;
+
+      // First word
+      if (rand < 0.33) {
+        first = "Crazy";
+      } else if (rand < 0.66) {
+        first = "Amazings";
+      } else {
+        first = "Fire";
+      }
+
+      // Second word
+      rand = Math.random();
+      if (rand < 0.33) {
+        second = "Engine";
+      } else if (rand < 0.66) {
+        second = "Foods";
+      } else {
+        second = "Garments";
+      }
+
+      // Third word
+      rand = Math.random();
+      if (rand < 0.33) {
+        third = "Bros";
+      } else if (rand < 0.66) {
+        third = "Limited";
+      } else {
+        third = "Hub";
+      }
+
+      // Display result
+      document.getElementById("nameBox").innerText = `${first} ${second} ${third}`;
+    }
+  </script>
+</body>
+</html>

@@ -5,11 +5,11 @@
 Create unique, creative, and catchy business names instantly! 🚀  
 Helping startups, entrepreneurs, and creators discover the perfect name for their ventures.
 
-![Screenshot](https://cdn.jsdelivr.net/gh/ashwini32027/Randombusinessnamegenerate/assets/screenshot-business-generator.png)
+![Screenshot](https://github.com/ashwini32027/Randombusinessnamegenerate)
 
 ## 🌟 Live Demo
 
-🔗 [Check it out here](https://ashwini32027.github.io/Randombusinessnamegenerate)
+🔗 [Check it out here](https://github.com/ashwini32027/Randombusinessnamegenerate)
 
 ---
 
@@ -50,7 +50,7 @@ These tags help improve discoverability on Google and other search engines. 🔍
 
 ## 🖼️ UI Preview
 
-![App Screenshot](https://cdn.jsdelivr.net/gh/ashwini32027/Randombusinessnamegenerate/assets/screenshot-business-generator.png)
+![App Screenshot](https://github.com/ashwini32027/Randombusinessnamegenerate)
 
 ---
 
